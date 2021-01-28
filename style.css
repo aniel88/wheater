@@ -4,6 +4,7 @@ body {
   height: 100;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
 }
 .bg-image {
   background: url("wallpaper.jpg");
