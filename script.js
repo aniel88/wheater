@@ -19,6 +19,7 @@ window.addEventListener("load", function () {
           return responso.json();
         })
         .then((data) => {
+          document.querySelector(".loader").style.display = "none";
           cod = data.weather[0];
           console.log(cod);
           temp = data.main.temp - 273.15;
